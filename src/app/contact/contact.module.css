@@ -17,8 +17,17 @@
     position:relative;
 }
 .image{
-    object-fit: cover;
+    object-fit: cover ;  
+    animation:move 3s infinite ease alternate;
 }
+ @keyframes move{
+    from{
+        transform:translateY(-15px);
+    }
+    to{
+        transform: translateY(0px) scale(1.03);
+    }
+ }
 .form{
     flex:1;
     display: flex;

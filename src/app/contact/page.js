@@ -14,7 +14,7 @@ const Contact = () => {
         alt=''
         fill={true}
         className={styles.image}
-        />
+        /> 
       </div>
       <div className={styles.form}>
         <form action="">
@@ -24,7 +24,7 @@ const Contact = () => {
           <Button url='#' text='Send'/>
         </form>
       </div>
-      </div>
+      </div>  
     </div>
   )
 }
