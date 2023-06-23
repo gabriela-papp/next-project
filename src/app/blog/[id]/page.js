@@ -32,7 +32,6 @@ const BlogPost
         </div>
         <div className={styles.content}>
           <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus omnis saepe, nesciunt vero sunt iste vel quasi perferendis veniam quaerat aliquam explicabo dicta atque ducimus assumenda officia porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          <hr/>
           Deleniti voluptatibus omnis saepe, nesciunt vero sunt iste vel quasi perferendis veniam quaerat aliquam explicabo dicta atque ducimus assumenda officia porro.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus omnis saepe, nesciunt vero sunt iste vel quasi perferendis veniam quaerat aliquam explicabo dicta atque ducimus assumenda officia porro.</p>
         </div>
     </div>
