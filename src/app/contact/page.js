@@ -3,6 +3,11 @@ import styles from './contact.module.css'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
 
+export const metadata={
+  title:'Best Gitfs Contact Page',
+  description:'Contact Page'
+}
+
 const Contact = () => {
   return (
     <div className={styles.container}>

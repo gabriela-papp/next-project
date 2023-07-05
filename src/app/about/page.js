@@ -4,6 +4,11 @@ import Image from 'next/image'
 import hero from '../../../public/gift-thumbnail.jpg'
 import Button from '@/components/Button/Button'
 
+export const metadata={
+  title:'Best Gitfs',
+  description:'Best Gifts For The Loved Ones'
+}
+
 const About = () => {
   return (
     <div className={styles.container}>
