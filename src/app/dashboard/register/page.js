@@ -11,8 +11,8 @@ const Register = () => {
   const handleSubmit= async(e)=>{
     e.preventDefault()
     const name=e.target[0].value;
-    const email=e.target[0].value;
-    const password=e.target[0].value;
+    const email=e.target[1].value;
+    const password=e.target[2].value;
 
     try{
       const res = await fetch('/api/auth/register',{
@@ -36,7 +36,7 @@ const Register = () => {
           <input type="password" placeholder='password' className={styles.input} required/>
           <button className={styles.button}>Register</button>
           {err && 'Something went wrong'}
-          <Link href='/dashboard/login'>Login with an existing account</Link>
+          <Link href='/dashboard/login' className={styles.button}>Login with an existing account</Link>
         </form>
     </div>
   )
