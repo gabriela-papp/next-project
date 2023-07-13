@@ -20,8 +20,7 @@ const handler = NextAuth({
                     const user =await User.findOne({email:credentials.email})
 
                     if(user){
-                        const passwordCorrect = await compare(credentials.password, user.password)
-                        if(passwordCorrect){
+                        if(credentials.password=== user.password){
                             return user
                         }else{
                             throw new Error('Wrong password')
